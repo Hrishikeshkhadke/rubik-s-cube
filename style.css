@@ -307,7 +307,6 @@ body {
   z-index: 1;
   transition: background 500ms ease;
   background: #d1d5db;
-  height: 100%;
 }
 .ui__background:after {
   position: absolute;
@@ -343,5 +342,4 @@ body {
 }
 .ui__buttons {
   z-index: 5;
-height: 95%;
 }
