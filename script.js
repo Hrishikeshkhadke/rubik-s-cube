@@ -1248,8 +1248,8 @@ class Controls {
     this.game.world.scene.add( this.helper );
 
     this.edges = new THREE.Mesh(
-      new THREE.BoxBufferGeometry( 1, 1, 1 ),
-      helperMaterial.clone(),
+      new THREE.BoxBufferGeometry( 1, 1, ),
+      helperMaterial.clone()
     );
 
     this.game.world.scene.add( this.edges );
